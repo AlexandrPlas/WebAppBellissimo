@@ -1,0 +1,129 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="WebAppBellissimo_1._0.Main"  %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" class="no-js">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Bellissimo</title>
+
+    <link rel="shortcut icon" type="image/x-icon" href="/images/favicon1.ico" />
+
+    <link rel="stylesheet" type="text/css" href="~/css/bootstrap.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="~/css/magnific-popup.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="~/css/font-awesome.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="~/css/flexslider.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="~/css/responsive.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="~/css/style.css" media="screen" />
+    <link rel="stylesheet" type="text/css" href="~/css/addToCart.css" media="screen" />
+
+
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <!-- Container -->
+    <div id="container">
+        <form id="form1" runat="server" enctype="multipart/form-data">
+
+            <header>
+                <div class="logo-box">
+                    <a href="/Default.aspx">
+                        <img alt="" src="/images/logo.png" /></a>
+                </div>
+
+                <a class="elemadded responsive-link" href="#">Меню</a>
+
+                <div class="menu-box">
+                    <asp:ContentPlaceHolder ID="ContentMenuBox" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+
+                <div class="social-box">
+                    <div class="info">
+                        <a href="#" class="mail">наш_адрес@domain.ru<i class="fa fa-envelope-o"></i></a>
+                        <p class="phone">+38164 123 456<i class="fa fa-phone"></i></p>
+                    </div>
+                    <p class="copyright">
+                        &#169; 2016 Bellissimo inc<br>
+                        All Rights Reserved
+                    </p>
+                </div>
+            </header>
+            <!-- End Header -->
+
+            <!-- content 
+			================================================== -->
+            <div id="content">
+
+                <div class="header">
+                    <div class="header_cart">
+                        <a href="/Page/BasketPage.aspx" class="btn">
+                            <span class="caption">Корзина</span>
+                            <div class="cart-icon">
+                                <img alt="" src="/images/cart.png" style="width: 20px;" />
+                            </div>
+                            <span class="cart-btn-total"><span class="rubble-value"><%# Math.Round(CheckOrders.Price, 2) %></span></span>
+                        </a>
+                           <%-- <asp:HyperLink CssClass="btn" runat="server" ID="Basket" NavigateUrl="/Page/BasketPage.aspx" Text="Корзина" />
+                            <div class="cart-icon">
+                                <img alt="" src="/images/cart.png" style="width: 20px;" />
+                            </div>
+                            <span class="cart-btn-total"><span class="rubble-value" runat="server"><%# CheckOrders.Price %></span></span>--%>
+
+                        <div class="rega">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <asp:HyperLink runat="server" class="login-btn" ID="Adminka" NavigateUrl="~/Page/AdminPage.aspx" Text="Редактор" />
+                                    </td>   
+                                    <td>
+                                        <asp:HyperLink runat="server" class="login-btn" ID="logi" NavigateUrl="~/Page/Autorization.aspx" Text="Войти" />
+                                    </td>
+                                    <td>
+                                        <asp:HyperLink class="login-btn" runat="server" ID="regi" NavigateUrl="~/Page/Regestrate.aspx" Text="Регистрация" />
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                    </td>
+                                     <td>
+                                    </td>
+                                    <td align="right">
+                                        <asp:Button CssClass="yellowBtn" runat="server" ID="logout" Visible="false" OnClick="logout_Click" Text="Выйти" />
+                                    </td>
+                                </tr>
+                            </table>
+                        </div>
+
+                    </div>
+                </div>
+
+
+                <div>
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </div>
+            </div>
+            <!-- End content -->
+
+
+            <div class="preloader">
+                <img alt="" src="/images/preloader.gif" />
+            </div>
+        </form>
+    </div>
+    <!-- End Container -->
+
+    <script type="text/javascript" src="/js/jquery.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.migrate.js"></script>
+    <script type="text/javascript" src="/js/jquery.magnific-popup.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/js/jquery.imagesloaded.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.isotope.min.js"></script>
+    <script type="text/javascript" src="/js/retina-1.1.0.min.js"></script>
+    <script type="text/javascript" src="/js/jquery.nicescroll.min.js"></script>
+    <script type="text/javascript" src="/js/script.js"></script>
+</body>
+</html>

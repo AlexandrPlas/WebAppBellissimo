@@ -1,0 +1,62 @@
+﻿@font-face {
+    font-family: Nautilus; /* Имя шрифта */
+    src: url(fonts/Nautilus.otf); /* Путь к файлу со шрифтом */
+}
+
+#recept {
+    margin-left: 10%;
+}
+
+.alignment, .alignmentV, .alignmentR {
+    margin-left: 10%;
+    width: 350px;
+    font-size: 16pt;
+}
+
+.ImageRecept {
+    height: 350px;
+}
+
+.Name_prod, .Name_menu {
+    font-family: Nautilus;
+}
+
+/*отображение подробностей рецепта*/
+.alignmentV, .alignmentR {
+    margin-left: 0%;
+}
+
+.recept_label {
+    padding-bottom: 20px;
+    font-size: 18pt;
+    margin-top: 15px;
+    font-family: Nautilus;
+}
+
+/*таблица с отзывами*/
+.alignmentR {
+    margin-top: 20px;
+    width: 80%;
+}
+
+#ContentPlaceHolder1_RecallLabel, .footer {
+    padding-bottom: 20px;
+}
+
+.start {
+    vertical-align: top;
+}
+
+.Name_menu {
+        font-size: 22pt;
+}
+
+#list_recept {
+    margin-left: 10%;
+}
+
+
+
+#list_recept h3{
+    font-family: Nautilus;
+}

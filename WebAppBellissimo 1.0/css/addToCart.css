@@ -1,0 +1,26 @@
+﻿@font-face {
+    font-family: Nautilus; /* Имя шрифта */
+    src: url(fonts/Nautilus.otf); /* Путь к файлу со шрифтом */
+}
+
+/*Добавить товар */
+.alignmentB {
+   margin-bottom: 20px;
+   font-size: 14pt;
+   font-family: Nautilus;
+}
+
+
+#ContentPlaceHolder1_ButtonCheck, .yellowBtn {
+    background: #ffed27; /* Цвет фона */
+    /*box-shadow: 0 0 5px; /*Размытая тень вокруг элемента*/
+    border: 1px solid #ffed27; /* Параметры рамки */
+    /*border-radius: 45px;*/
+}
+
+
+#ContentPlaceHolder1_CountDish {
+    margin-left: 20px;
+    width: 40px;
+    margin-right: 10px;
+}

@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4A695EC2-1B93-45F2-86BC-10E1213DE80A}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WebAppBellissimo_1._0</RootNamespace>
+    <AssemblyName>WebAppBellissimo 1.0</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Ninject, Version=3.2.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Ninject.3.2.2.0\lib\net45-full\Ninject.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Data\DbBella.mdf" />
+    <Content Include="App_Data\DbBella_log.ldf">
+      <DependentUpon>DbBella.mdf</DependentUpon>
+    </Content>
+    <Content Include="css\lk.css" />
+    <Content Include="css\recept.css" />
+    <Content Include="css\table.css" />
+    <Content Include="images\about.png" />
+    <Content Include="images\face.png" />
+    <Content Include="images\favicon1.ico" />
+    <Content Include="images\favicon1.png" />
+    <Content Include="images\image6.jpg" />
+    <Content Include="images\IMG_2240.jpg" />
+    <Content Include="images\IMG_9552.jpg" />
+    <Content Include="images\logo.png" />
+    <Content Include="images\preloader.gif" />
+    <Content Include="images\quote.png" />
+    <Content Include="images\shoppingcart.png" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\gmap3.min.js" />
+    <Content Include="js\jquery.flexslider.js" />
+    <Content Include="js\jquery.imagesloaded.min.js" />
+    <Content Include="js\jquery.isotope.min.js" />
+    <Content Include="js\jquery.magnific-popup.min.js" />
+    <Content Include="js\jquery.migrate.js" />
+    <Content Include="js\jquery.min.js" />
+    <Content Include="js\jquery.nicescroll.min.js" />
+    <Content Include="js\jquery.quovolver.js" />
+    <Content Include="js\retina-1.1.0.min.js" />
+    <Content Include="js\script.js" />
+    <Content Include="Main.Master" />
+    <Content Include="packages.config" />
+    <Content Include="css\fonts\bad_script_regular.ttf" />
+    <Content Include="css\fonts\big_noodle_titling.eot" />
+    <Content Include="css\fonts\big_noodle_titling.ttf" />
+    <Content Include="css\fonts\big_noodle_titling.woff" />
+    <Content Include="css\fonts\Descr.WD3" />
+    <Content Include="css\fonts\fontawesome-webfontba72.eot%40v=4.0.3" />
+    <Content Include="css\fonts\fontawesome-webfontba72.svg%40v=4.0.3" />
+    <Content Include="css\fonts\fontawesome-webfontd41d.eot%40" />
+    <Content Include="css\fonts\LSvJpeGy.ttf" />
+    <Content Include="css\fonts\Nautilus.otf" />
+    <Content Include="css\addToCart.css" />
+    <Content Include="css\fonts\DearType_-_Lifehack_Bold.otf" />
+    <Content Include="css\fonts\DearType_-_Lifehack_Sans_Bold.otf" />
+    <Content Include="css\about.css" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Default.aspx" />
+    <Content Include="Page\Adminka\NewDishPage.aspx" />
+    <Content Include="Page\Adminka\NewMenusPage.aspx" />
+    <Content Include="Page\Adminka\NewProdPage.aspx" />
+    <Content Include="Page\AdminPage.aspx" />
+    <Content Include="Page\Adminka\DishsAd.aspx" />
+    <Content Include="Page\Adminka\MenusAd.aspx" />
+    <Content Include="Page\Adminka\ProductAd.aspx" />
+    <Content Include="Page\Autorization.aspx" />
+    <Content Include="Page\LK.aspx" />
+    <Content Include="Page\LKView\ArchiveUser.aspx" />
+    <Content Include="Page\BasketPage.aspx" />
+    <Content Include="Page\LKView\OrderUser.aspx" />
+    <Content Include="Page\LKView\OrderView.aspx" />
+    <Content Include="Page\LKView\RedactUser.aspx" />
+    <Content Include="Page\MenuList.aspx" />
+    <Content Include="Page\MenuPage.aspx" />
+    <Content Include="Page\ReceptsPage.aspx" />
+    <Content Include="Page\ReceptView.aspx" />
+    <Content Include="Page\Regestrate.aspx" />
+    <Content Include="Page\About.aspx" />
+    <Content Include="PictureDish\DishId_1\null_image.png" />
+    <Content Include="PictureDish\null_image.png" />
+    <Content Include="PictureDish\DishId_1\lesnoi.jpg" />
+    <Content Include="PictureDish\DishId_2\8PyBZgiaO3A.jpg" />
+    <Content Include="PictureDish\DishId_3\qvCgLb7BtQ4.jpg" />
+    <Content Include="PictureDish\DishId_4\1FgT5AHUCyM.jpg" />
+    <Content Include="css\bootstrap.css" />
+    <Content Include="images\cart.png" />
+    <Content Include="css\flexslider.css" />
+    <Content Include="css\font-awesome.css" />
+    <Content Include="css\fonts\big_noodle_titling.svg" />
+    <Content Include="css\fonts\fontawesome-webfontba72ba72.svg" />
+    <Content Include="css\magnific-popup.css" />
+    <Content Include="css\responsive.css" />
+    <Content Include="css\style.css" />
+    <Content Include="upload\image1.jpg" />
+    <Content Include="upload\image2.jpg" />
+    <Content Include="upload\image3.jpg" />
+    <Content Include="upload\image4.jpg" />
+    <Content Include="upload\image5.jpg" />
+    <Content Include="upload\image6.jpg" />
+    <Content Include="upload\image7.jpg" />
+    <Content Include="upload\image8.jpg" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Default.aspx.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.cs">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Main.Master.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Main.Master.designer.cs">
+      <DependentUpon>Main.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Adminka\NewDishPage.aspx.cs">
+      <DependentUpon>NewDishPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Adminka\NewDishPage.aspx.designer.cs">
+      <DependentUpon>NewDishPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Adminka\NewMenusPage.aspx.cs">
+      <DependentUpon>NewMenusPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Adminka\NewMenusPage.aspx.designer.cs">
+      <DependentUpon>NewMenusPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Adminka\NewProdPage.aspx.cs">
+      <DependentUpon>NewProdPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Adminka\NewProdPage.aspx.designer.cs">
+      <DependentUpon>NewProdPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\AdminPage.aspx.cs">
+      <DependentUpon>AdminPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\AdminPage.aspx.designer.cs">
+      <DependentUpon>AdminPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Adminka\DishsAd.aspx.cs">
+      <DependentUpon>DishsAd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Adminka\DishsAd.aspx.designer.cs">
+      <DependentUpon>DishsAd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Adminka\MenusAd.aspx.cs">
+      <DependentUpon>MenusAd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Adminka\MenusAd.aspx.designer.cs">
+      <DependentUpon>MenusAd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Adminka\ProductAd.aspx.cs">
+      <DependentUpon>ProductAd.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Adminka\ProductAd.aspx.designer.cs">
+      <DependentUpon>ProductAd.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Autorization.aspx.cs">
+      <DependentUpon>Autorization.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Autorization.aspx.designer.cs">
+      <DependentUpon>Autorization.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\LK.aspx.cs">
+      <DependentUpon>LK.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\LK.aspx.designer.cs">
+      <DependentUpon>LK.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\LKView\ArchiveUser.aspx.cs">
+      <DependentUpon>ArchiveUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\LKView\ArchiveUser.aspx.designer.cs">
+      <DependentUpon>ArchiveUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\BasketPage.aspx.cs">
+      <DependentUpon>BasketPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\BasketPage.aspx.designer.cs">
+      <DependentUpon>BasketPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\LKView\OrderUser.aspx.cs">
+      <DependentUpon>OrderUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\LKView\OrderUser.aspx.designer.cs">
+      <DependentUpon>OrderUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\LKView\OrderView.aspx.cs">
+      <DependentUpon>OrderView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\LKView\OrderView.aspx.designer.cs">
+      <DependentUpon>OrderView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\LKView\RedactUser.aspx.cs">
+      <DependentUpon>RedactUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\LKView\RedactUser.aspx.designer.cs">
+      <DependentUpon>RedactUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\MenuList.aspx.cs">
+      <DependentUpon>MenuList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\MenuList.aspx.designer.cs">
+      <DependentUpon>MenuList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\MenuPage.aspx.cs">
+      <DependentUpon>MenuPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\MenuPage.aspx.designer.cs">
+      <DependentUpon>MenuPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\ReceptsPage.aspx.cs">
+      <DependentUpon>ReceptsPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\ReceptsPage.aspx.designer.cs">
+      <DependentUpon>ReceptsPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\ReceptView.aspx.cs">
+      <DependentUpon>ReceptView.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\ReceptView.aspx.designer.cs">
+      <DependentUpon>ReceptView.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\Regestrate.aspx.cs">
+      <DependentUpon>Regestrate.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\Regestrate.aspx.designer.cs">
+      <DependentUpon>Regestrate.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Page\About.aspx.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Page\About.aspx.designer.cs">
+      <DependentUpon>About.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\DbClassesBell\DbClassesBell.csproj">
+      <Project>{2cb7ad0f-a152-47e6-858d-2d0720ea5729}</Project>
+      <Name>DbClassesBell</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup />
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>60152</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:60152/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

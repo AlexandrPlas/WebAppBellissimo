@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebAppBellissimo 1.0", "WebAppBellissimo 1.0\WebAppBellissimo 1.0.csproj", "{4A695EC2-1B93-45F2-86BC-10E1213DE80A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbClassesBell", "DbClassesBell\DbClassesBell.csproj", "{2CB7AD0F-A152-47E6-858D-2D0720EA5729}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A695EC2-1B93-45F2-86BC-10E1213DE80A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A695EC2-1B93-45F2-86BC-10E1213DE80A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A695EC2-1B93-45F2-86BC-10E1213DE80A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A695EC2-1B93-45F2-86BC-10E1213DE80A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CB7AD0F-A152-47E6-858D-2D0720EA5729}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CB7AD0F-A152-47E6-858D-2D0720EA5729}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CB7AD0F-A152-47E6-858D-2D0720EA5729}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CB7AD0F-A152-47E6-858D-2D0720EA5729}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

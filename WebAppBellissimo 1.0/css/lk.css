@@ -1,0 +1,56 @@
+﻿@font-face {
+    font-family: Nautilus; /* Имя шрифта */
+    src: url(fonts/Nautilus.otf); /* Путь к файлу со шрифтом */
+}
+
+
+#recept h2 {
+    font-family: Nautilus;
+    font-size: 32pt;
+}
+
+
+
+.alignmentU {
+    margin-left: 7%;
+    font-size: 16pt;
+    border-spacing: 7px 11px;
+}
+
+    .alignmentU td {
+        padding: 7px;
+    }
+
+#lk_menu {
+   margin-left: 35%;
+   margin-top: 10%;
+   width: 450px;
+}
+
+.alignmentU input {
+    width: 250px;
+}
+
+
+#ContentPlaceHolder1_Button1 {
+    width: 390px;
+    height: 40px;
+    margin-left: 50px;
+
+}
+
+#orderV_menu {
+    position: absolute;
+    top: 250px;
+    right: 30px;
+}
+
+
+
+#ContentPlaceHolder1_ButtonRemOrder {
+    /*margin-left: 20px;
+    margin-top: 7px;*/
+
+    background: #ffed27; /* Цвет фона */
+    border: 1px solid #ffed27; /* Параметры рамки */
+}

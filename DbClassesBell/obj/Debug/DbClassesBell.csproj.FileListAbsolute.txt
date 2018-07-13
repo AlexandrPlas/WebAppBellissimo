@@ -1,0 +1,32 @@
+D:\Учеба\11 семестр\WebAppBellissimo 1.0\DbClassesBell\bin\Debug\DbClassesBell.dll
+D:\Учеба\11 семестр\WebAppBellissimo 1.0\DbClassesBell\bin\Debug\DbClassesBell.pdb
+D:\Учеба\11 семестр\WebAppBellissimo 1.0\DbClassesBell\obj\Debug\DbClassesBell.dll
+D:\Учеба\11 семестр\WebAppBellissimo 1.0\DbClassesBell\obj\Debug\DbClassesBell.pdb
+D:\Учеба\11 семестр\WebAppBellissimo 1.0\DbClassesBell\bin\Debug\DbClassesBell.dll.config
+D:\Учеба\11 семестр\WebAppBellissimo 1.0\DbClassesBell\obj\Debug\DbClassesBell.csprojResolveAssemblyReference.cache
+D:\Учеба\11 семестр\WebAppBellissimo 1.0\DbClassesBell\bin\Debug\Ninject.dll
+D:\Учеба\11 семестр\WebAppBellissimo 1.0\DbClassesBell\bin\Debug\Ninject.xml
+D:\Учеба\11 семестр\Problemki\Проблемки\WebAppBellissimo 1.0\DbClassesBell\bin\Debug\DbClassesBell.dll.config
+D:\Учеба\11 семестр\Problemki\Проблемки\WebAppBellissimo 1.0\DbClassesBell\bin\Debug\DbClassesBell.dll
+D:\Учеба\11 семестр\Problemki\Проблемки\WebAppBellissimo 1.0\DbClassesBell\bin\Debug\DbClassesBell.pdb
+D:\Учеба\11 семестр\Problemki\Проблемки\WebAppBellissimo 1.0\DbClassesBell\bin\Debug\Ninject.dll
+D:\Учеба\11 семестр\Problemki\Проблемки\WebAppBellissimo 1.0\DbClassesBell\bin\Debug\Ninject.xml
+D:\Учеба\11 семестр\Problemki\Проблемки\WebAppBellissimo 1.0\DbClassesBell\obj\Debug\DbClassesBell.csprojResolveAssemblyReference.cache
+D:\Учеба\11 семестр\Problemki\Проблемки\WebAppBellissimo 1.0\DbClassesBell\obj\Debug\DbClassesBell.dll
+D:\Учеба\11 семестр\Problemki\Проблемки\WebAppBellissimo 1.0\DbClassesBell\obj\Debug\DbClassesBell.pdb
+D:\Учеба\11 семестр\Problemki_2_0_css\Problemki_2_0+css\WebAppBellissimo 1.0\DbClassesBell\bin\Debug\DbClassesBell.dll.config
+D:\Учеба\11 семестр\Problemki_2_0_css\Problemki_2_0+css\WebAppBellissimo 1.0\DbClassesBell\bin\Debug\DbClassesBell.dll
+D:\Учеба\11 семестр\Problemki_2_0_css\Problemki_2_0+css\WebAppBellissimo 1.0\DbClassesBell\bin\Debug\DbClassesBell.pdb
+D:\Учеба\11 семестр\Problemki_2_0_css\Problemki_2_0+css\WebAppBellissimo 1.0\DbClassesBell\bin\Debug\Ninject.dll
+D:\Учеба\11 семестр\Problemki_2_0_css\Problemki_2_0+css\WebAppBellissimo 1.0\DbClassesBell\bin\Debug\Ninject.xml
+D:\Учеба\11 семестр\Problemki_2_0_css\Problemki_2_0+css\WebAppBellissimo 1.0\DbClassesBell\obj\Debug\DbClassesBell.csprojResolveAssemblyReference.cache
+D:\Учеба\11 семестр\Problemki_2_0_css\Problemki_2_0+css\WebAppBellissimo 1.0\DbClassesBell\obj\Debug\DbClassesBell.dll
+D:\Учеба\11 семестр\Problemki_2_0_css\Problemki_2_0+css\WebAppBellissimo 1.0\DbClassesBell\obj\Debug\DbClassesBell.pdb
+D:\Учеба\11 семестр\Problemki_2_0_css\Problemki_2_0+css — копия\WebAppBellissimo 1.0\DbClassesBell\bin\Debug\DbClassesBell.dll.config
+D:\Учеба\11 семестр\Problemki_2_0_css\Problemki_2_0+css — копия\WebAppBellissimo 1.0\DbClassesBell\bin\Debug\DbClassesBell.dll
+D:\Учеба\11 семестр\Problemki_2_0_css\Problemki_2_0+css — копия\WebAppBellissimo 1.0\DbClassesBell\bin\Debug\DbClassesBell.pdb
+D:\Учеба\11 семестр\Problemki_2_0_css\Problemki_2_0+css — копия\WebAppBellissimo 1.0\DbClassesBell\bin\Debug\Ninject.dll
+D:\Учеба\11 семестр\Problemki_2_0_css\Problemki_2_0+css — копия\WebAppBellissimo 1.0\DbClassesBell\bin\Debug\Ninject.xml
+D:\Учеба\11 семестр\Problemki_2_0_css\Problemki_2_0+css — копия\WebAppBellissimo 1.0\DbClassesBell\obj\Debug\DbClassesBell.csprojResolveAssemblyReference.cache
+D:\Учеба\11 семестр\Problemki_2_0_css\Problemki_2_0+css — копия\WebAppBellissimo 1.0\DbClassesBell\obj\Debug\DbClassesBell.dll
+D:\Учеба\11 семестр\Problemki_2_0_css\Problemki_2_0+css — копия\WebAppBellissimo 1.0\DbClassesBell\obj\Debug\DbClassesBell.pdb

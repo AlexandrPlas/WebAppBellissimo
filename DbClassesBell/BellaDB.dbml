@@ -1,0 +1,148 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="DbBella" Class="BellaDBDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=&quot;D:\Учеба\11 семестр\Problemki\Проблемки\WebAppBellissimo 1.0\WebAppBellissimo 1.0\App_Data\DbBella.mdf&quot;;Integrated Security=True" SettingsObjectName="DbClassesBell.Properties.Settings" SettingsPropertyName="DbBellaConnectionString2" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Dish" Member="Dish">
+    <Type Name="Dish">
+      <Column Name="DishId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Base" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="Difficult" Type="System.String" DbType="NVarChar(15)" CanBeNull="true" />
+      <Column Name="KindId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Price" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Association Name="Dish_ImageForDish" Member="ImageForDish" ThisKey="DishId" OtherKey="DishId" Type="ImageForDish" />
+      <Association Name="Dish_MenuDish" Member="MenuDish" ThisKey="DishId" OtherKey="DishId" Type="MenuDish" />
+      <Association Name="Dish_OrderDish" Member="OrderDish" ThisKey="DishId" OtherKey="DishId" Type="OrderDish" />
+      <Association Name="Dish_Portion" Member="Portion" ThisKey="DishId" OtherKey="DishId" Type="Portion" />
+      <Association Name="Dish_Recall" Member="Recall" ThisKey="DishId" OtherKey="DishId" Type="Recall" />
+      <Association Name="Dish_Recept" Member="Recept" ThisKey="DishId" OtherKey="DishId" Type="Recept" />
+      <Association Name="Kind_Dish" Member="Kind" ThisKey="KindId" OtherKey="KindId" Type="Kind" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.[User]" Member="User">
+    <Type Name="User">
+      <Column Name="UserId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="FirstName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="LastName" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="email" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="password" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Adress" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Telephone" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Status" Type="System.String" DbType="NVarChar(10) NOT NULL" CanBeNull="false" />
+      <Association Name="User_Order" Member="Order" ThisKey="UserId" OtherKey="UserId" Type="Order" />
+      <Association Name="User_Recall" Member="Recall" ThisKey="UserId" OtherKey="UserId" Type="Recall" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ImageForDish" Member="ImageForDish">
+    <Type Name="ImageForDish">
+      <Column Name="ImageId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DishId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Image" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="Dish_ImageForDish" Member="Dish" ThisKey="DishId" OtherKey="DishId" Type="Dish" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Kind" Member="Kind">
+    <Type Name="Kind">
+      <Column Name="KindId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="Kind_Dish" Member="Dish" ThisKey="KindId" OtherKey="KindId" Type="Dish" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Menu" Member="Menu">
+    <Type Name="Menu">
+      <Column Name="MenuId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Text" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="Price" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Association Name="Menu_MenuDish" Member="MenuDish" ThisKey="MenuId" OtherKey="MenuId" Type="MenuDish" />
+      <Association Name="Menu_OrderMenu" Member="OrderMenu" ThisKey="MenuId" OtherKey="MenuId" Type="OrderMenu" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MenuDish" Member="MenuDish">
+    <Type Name="MenuDish">
+      <Column Name="MenuDishId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DishId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="MenuId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="RepastId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Dish_MenuDish" Member="Dish" ThisKey="DishId" OtherKey="DishId" Type="Dish" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="Menu_MenuDish" Member="Menu" ThisKey="MenuId" OtherKey="MenuId" Type="Menu" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="Repast_MenuDish" Member="Repast" ThisKey="RepastId" OtherKey="RepastId" Type="Repast" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.[Order]" Member="Order">
+    <Type Name="Order">
+      <Column Name="OrderId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="State" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Price" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Association Name="Order_OrderDish" Member="OrderDish" ThisKey="OrderId" OtherKey="OrderId" Type="OrderDish" />
+      <Association Name="Order_OrderMenu" Member="OrderMenu" ThisKey="OrderId" OtherKey="OrderId" Type="OrderMenu" />
+      <Association Name="User_Order" Member="User" ThisKey="UserId" OtherKey="UserId" Type="User" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.OrderDish" Member="OrderDish">
+    <Type Name="OrderDish">
+      <Column Name="OrderId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DishId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="OrderDishId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Count" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Dish_OrderDish" Member="Dish" ThisKey="DishId" OtherKey="DishId" Type="Dish" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="Order_OrderDish" Member="Order" ThisKey="OrderId" OtherKey="OrderId" Type="Order" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.OrderMenu" Member="OrderMenu">
+    <Type Name="OrderMenu">
+      <Column Name="OrderId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="MenuId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="OrderMenuId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Count" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Menu_OrderMenu" Member="Menu" ThisKey="MenuId" OtherKey="MenuId" Type="Menu" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="Order_OrderMenu" Member="Order" ThisKey="OrderId" OtherKey="OrderId" Type="Order" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Portion" Member="Portion">
+    <Type Name="Portion">
+      <Column Name="PortionId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DishId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ProductId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PrMass" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Dish_Portion" Member="Dish" ThisKey="DishId" OtherKey="DishId" Type="Dish" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="Product_Portion" Member="Product" ThisKey="ProductId" OtherKey="ProductId" Type="Product" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Product" Member="Product">
+    <Type Name="Product">
+      <Column Name="ProductId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Calories" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Price" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Column Name="Proteins" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Fats" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Ca" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="Product_Portion" Member="Portion" ThisKey="ProductId" OtherKey="ProductId" Type="Portion" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Recall" Member="Recall">
+    <Type Name="Recall">
+      <Column Name="RecallId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DishId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Text" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="Dish_Recall" Member="Dish" ThisKey="DishId" OtherKey="DishId" Type="Dish" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+      <Association Name="User_Recall" Member="User" ThisKey="UserId" OtherKey="UserId" Type="User" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Recept" Member="Recept">
+    <Type Name="Recept">
+      <Column Name="ReceptId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DishId" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Specific" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Association Name="Dish_Recept" Member="Dish" ThisKey="DishId" OtherKey="DishId" Type="Dish" IsForeignKey="true" DeleteRule="CASCADE" DeleteOnNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Repast" Member="Repast">
+    <Type Name="Repast">
+      <Column Name="RepastId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="Repast_MenuDish" Member="MenuDish" ThisKey="RepastId" OtherKey="RepastId" Type="MenuDish" />
+    </Type>
+  </Table>
+</Database>

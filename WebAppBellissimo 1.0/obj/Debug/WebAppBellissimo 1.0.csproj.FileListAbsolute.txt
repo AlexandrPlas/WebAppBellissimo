@@ -1,0 +1,67 @@
+D:\Учеба\11 семестр\WebAppBellissimo 1.0\WebAppBellissimo 1.0\bin\WebAppBellissimo 1.0.dll.config
+D:\Учеба\11 семестр\WebAppBellissimo 1.0\WebAppBellissimo 1.0\bin\WebAppBellissimo 1.0.dll
+D:\Учеба\11 семестр\WebAppBellissimo 1.0\WebAppBellissimo 1.0\bin\WebAppBellissimo 1.0.pdb
+D:\Учеба\11 семестр\WebAppBellissimo 1.0\WebAppBellissimo 1.0\bin\DbClassesBell.dll
+D:\Учеба\11 семестр\WebAppBellissimo 1.0\WebAppBellissimo 1.0\bin\DbClassesBell.pdb
+D:\Учеба\11 семестр\WebAppBellissimo 1.0\WebAppBellissimo 1.0\obj\Debug\WebAppBellissimo 1.0.csprojResolveAssemblyReference.cache
+D:\Учеба\11 семестр\WebAppBellissimo 1.0\WebAppBellissimo 1.0\obj\Debug\WebAppBellissimo 1.0.dll
+D:\Учеба\11 семестр\WebAppBellissimo 1.0\WebAppBellissimo 1.0\obj\Debug\WebAppBellissimo 1.0.pdb
+D:\Учеба\11 семестр\WebAppBellissimo 1.0\WebAppBellissimo 1.0\bin\Ninject.dll
+D:\Учеба\11 семестр\WebAppBellissimo 1.0\WebAppBellissimo 1.0\bin\Ninject.xml
+E:\3 семестр\Соврем проблемы инф-ки и вычислит техники\Проблемки\WebAppBellissimo 1.0\WebAppBellissimo 1.0\bin\WebAppBellissimo 1.0.dll
+E:\3 семестр\Соврем проблемы инф-ки и вычислит техники\Проблемки\WebAppBellissimo 1.0\WebAppBellissimo 1.0\bin\WebAppBellissimo 1.0.pdb
+E:\3 семестр\Соврем проблемы инф-ки и вычислит техники\Проблемки\WebAppBellissimo 1.0\WebAppBellissimo 1.0\bin\DbClassesBell.dll
+E:\3 семестр\Соврем проблемы инф-ки и вычислит техники\Проблемки\WebAppBellissimo 1.0\WebAppBellissimo 1.0\bin\Ninject.dll
+E:\3 семестр\Соврем проблемы инф-ки и вычислит техники\Проблемки\WebAppBellissimo 1.0\WebAppBellissimo 1.0\bin\DbClassesBell.pdb
+E:\3 семестр\Соврем проблемы инф-ки и вычислит техники\Проблемки\WebAppBellissimo 1.0\WebAppBellissimo 1.0\bin\Ninject.xml
+E:\3 семестр\Соврем проблемы инф-ки и вычислит техники\Проблемки\WebAppBellissimo 1.0\WebAppBellissimo 1.0\obj\Debug\WebAppBellissimo 1.0.csprojResolveAssemblyReference.cache
+E:\3 семестр\Соврем проблемы инф-ки и вычислит техники\Проблемки\WebAppBellissimo 1.0\WebAppBellissimo 1.0\obj\Debug\WebAppBellissimo 1.0.dll
+E:\3 семестр\Соврем проблемы инф-ки и вычислит техники\Проблемки\WebAppBellissimo 1.0\WebAppBellissimo 1.0\obj\Debug\WebAppBellissimo 1.0.pdb
+D:\Учеба\11 семестр\Problemki\Проблемки\WebAppBellissimo 1.0\WebAppBellissimo 1.0\bin\WebAppBellissimo 1.0.dll.config
+D:\Учеба\11 семестр\Problemki\Проблемки\WebAppBellissimo 1.0\WebAppBellissimo 1.0\bin\WebAppBellissimo 1.0.dll
+D:\Учеба\11 семестр\Problemki\Проблемки\WebAppBellissimo 1.0\WebAppBellissimo 1.0\bin\WebAppBellissimo 1.0.pdb
+D:\Учеба\11 семестр\Problemki\Проблемки\WebAppBellissimo 1.0\WebAppBellissimo 1.0\bin\DbClassesBell.dll
+D:\Учеба\11 семестр\Problemki\Проблемки\WebAppBellissimo 1.0\WebAppBellissimo 1.0\bin\Ninject.dll
+D:\Учеба\11 семестр\Problemki\Проблемки\WebAppBellissimo 1.0\WebAppBellissimo 1.0\bin\DbClassesBell.pdb
+D:\Учеба\11 семестр\Problemki\Проблемки\WebAppBellissimo 1.0\WebAppBellissimo 1.0\bin\Ninject.xml
+D:\Учеба\11 семестр\Problemki\Проблемки\WebAppBellissimo 1.0\WebAppBellissimo 1.0\obj\Debug\WebAppBellissimo 1.0.csprojResolveAssemblyReference.cache
+D:\Учеба\11 семестр\Problemki\Проблемки\WebAppBellissimo 1.0\WebAppBellissimo 1.0\obj\Debug\WebAppBellissimo 1.0.dll
+D:\Учеба\11 семестр\Problemki\Проблемки\WebAppBellissimo 1.0\WebAppBellissimo 1.0\obj\Debug\WebAppBellissimo 1.0.pdb
+E:\3 семестр\Соврем проблемы инф-ки и вычислит техники\Problemki_2_0\WebAppBellissimo 1.0\WebAppBellissimo 1.0\bin\WebAppBellissimo 1.0.dll
+E:\3 семестр\Соврем проблемы инф-ки и вычислит техники\Problemki_2_0\WebAppBellissimo 1.0\WebAppBellissimo 1.0\bin\WebAppBellissimo 1.0.pdb
+E:\3 семестр\Соврем проблемы инф-ки и вычислит техники\Problemki_2_0\WebAppBellissimo 1.0\WebAppBellissimo 1.0\bin\DbClassesBell.dll
+E:\3 семестр\Соврем проблемы инф-ки и вычислит техники\Problemki_2_0\WebAppBellissimo 1.0\WebAppBellissimo 1.0\bin\Ninject.dll
+E:\3 семестр\Соврем проблемы инф-ки и вычислит техники\Problemki_2_0\WebAppBellissimo 1.0\WebAppBellissimo 1.0\bin\DbClassesBell.pdb
+E:\3 семестр\Соврем проблемы инф-ки и вычислит техники\Problemki_2_0\WebAppBellissimo 1.0\WebAppBellissimo 1.0\bin\Ninject.xml
+E:\3 семестр\Соврем проблемы инф-ки и вычислит техники\Problemki_2_0\WebAppBellissimo 1.0\WebAppBellissimo 1.0\obj\Debug\WebAppBellissimo 1.0.csprojResolveAssemblyReference.cache
+E:\3 семестр\Соврем проблемы инф-ки и вычислит техники\Problemki_2_0\WebAppBellissimo 1.0\WebAppBellissimo 1.0\obj\Debug\WebAppBellissimo 1.0.dll
+E:\3 семестр\Соврем проблемы инф-ки и вычислит техники\Problemki_2_0\WebAppBellissimo 1.0\WebAppBellissimo 1.0\obj\Debug\WebAppBellissimo 1.0.pdb
+E:\3 семестр\Соврем проблемы инф-ки и вычислит техники\Problemki_2_0+css\WebAppBellissimo 1.0\WebAppBellissimo 1.0\bin\WebAppBellissimo 1.0.dll
+E:\3 семестр\Соврем проблемы инф-ки и вычислит техники\Problemki_2_0+css\WebAppBellissimo 1.0\WebAppBellissimo 1.0\bin\WebAppBellissimo 1.0.pdb
+E:\3 семестр\Соврем проблемы инф-ки и вычислит техники\Problemki_2_0+css\WebAppBellissimo 1.0\WebAppBellissimo 1.0\bin\DbClassesBell.dll
+E:\3 семестр\Соврем проблемы инф-ки и вычислит техники\Problemki_2_0+css\WebAppBellissimo 1.0\WebAppBellissimo 1.0\bin\Ninject.dll
+E:\3 семестр\Соврем проблемы инф-ки и вычислит техники\Problemki_2_0+css\WebAppBellissimo 1.0\WebAppBellissimo 1.0\bin\DbClassesBell.pdb
+E:\3 семестр\Соврем проблемы инф-ки и вычислит техники\Problemki_2_0+css\WebAppBellissimo 1.0\WebAppBellissimo 1.0\bin\Ninject.xml
+E:\3 семестр\Соврем проблемы инф-ки и вычислит техники\Problemki_2_0+css\WebAppBellissimo 1.0\WebAppBellissimo 1.0\obj\Debug\WebAppBellissimo 1.0.csprojResolveAssemblyReference.cache
+E:\3 семестр\Соврем проблемы инф-ки и вычислит техники\Problemki_2_0+css\WebAppBellissimo 1.0\WebAppBellissimo 1.0\obj\Debug\WebAppBellissimo 1.0.dll
+E:\3 семестр\Соврем проблемы инф-ки и вычислит техники\Problemki_2_0+css\WebAppBellissimo 1.0\WebAppBellissimo 1.0\obj\Debug\WebAppBellissimo 1.0.pdb
+D:\Учеба\11 семестр\Problemki_2_0_css\Problemki_2_0+css\WebAppBellissimo 1.0\WebAppBellissimo 1.0\bin\WebAppBellissimo 1.0.dll.config
+D:\Учеба\11 семестр\Problemki_2_0_css\Problemki_2_0+css\WebAppBellissimo 1.0\WebAppBellissimo 1.0\bin\WebAppBellissimo 1.0.dll
+D:\Учеба\11 семестр\Problemki_2_0_css\Problemki_2_0+css\WebAppBellissimo 1.0\WebAppBellissimo 1.0\bin\WebAppBellissimo 1.0.pdb
+D:\Учеба\11 семестр\Problemki_2_0_css\Problemki_2_0+css\WebAppBellissimo 1.0\WebAppBellissimo 1.0\bin\DbClassesBell.dll
+D:\Учеба\11 семестр\Problemki_2_0_css\Problemki_2_0+css\WebAppBellissimo 1.0\WebAppBellissimo 1.0\bin\Ninject.dll
+D:\Учеба\11 семестр\Problemki_2_0_css\Problemki_2_0+css\WebAppBellissimo 1.0\WebAppBellissimo 1.0\bin\DbClassesBell.pdb
+D:\Учеба\11 семестр\Problemki_2_0_css\Problemki_2_0+css\WebAppBellissimo 1.0\WebAppBellissimo 1.0\bin\Ninject.xml
+D:\Учеба\11 семестр\Problemki_2_0_css\Problemki_2_0+css\WebAppBellissimo 1.0\WebAppBellissimo 1.0\obj\Debug\WebAppBellissimo 1.0.csprojResolveAssemblyReference.cache
+D:\Учеба\11 семестр\Problemki_2_0_css\Problemki_2_0+css\WebAppBellissimo 1.0\WebAppBellissimo 1.0\obj\Debug\WebAppBellissimo 1.0.dll
+D:\Учеба\11 семестр\Problemki_2_0_css\Problemki_2_0+css\WebAppBellissimo 1.0\WebAppBellissimo 1.0\obj\Debug\WebAppBellissimo 1.0.pdb
+D:\Учеба\11 семестр\Problemki_2_0_css\Problemki_2_0+css — копия\WebAppBellissimo 1.0\WebAppBellissimo 1.0\bin\WebAppBellissimo 1.0.dll.config
+D:\Учеба\11 семестр\Problemki_2_0_css\Problemki_2_0+css — копия\WebAppBellissimo 1.0\WebAppBellissimo 1.0\bin\WebAppBellissimo 1.0.dll
+D:\Учеба\11 семестр\Problemki_2_0_css\Problemki_2_0+css — копия\WebAppBellissimo 1.0\WebAppBellissimo 1.0\bin\WebAppBellissimo 1.0.pdb
+D:\Учеба\11 семестр\Problemki_2_0_css\Problemki_2_0+css — копия\WebAppBellissimo 1.0\WebAppBellissimo 1.0\bin\DbClassesBell.dll
+D:\Учеба\11 семестр\Problemki_2_0_css\Problemki_2_0+css — копия\WebAppBellissimo 1.0\WebAppBellissimo 1.0\bin\Ninject.dll
+D:\Учеба\11 семестр\Problemki_2_0_css\Problemki_2_0+css — копия\WebAppBellissimo 1.0\WebAppBellissimo 1.0\bin\DbClassesBell.pdb
+D:\Учеба\11 семестр\Problemki_2_0_css\Problemki_2_0+css — копия\WebAppBellissimo 1.0\WebAppBellissimo 1.0\bin\Ninject.xml
+D:\Учеба\11 семестр\Problemki_2_0_css\Problemki_2_0+css — копия\WebAppBellissimo 1.0\WebAppBellissimo 1.0\obj\Debug\WebAppBellissimo 1.0.csprojResolveAssemblyReference.cache
+D:\Учеба\11 семестр\Problemki_2_0_css\Problemki_2_0+css — копия\WebAppBellissimo 1.0\WebAppBellissimo 1.0\obj\Debug\WebAppBellissimo 1.0.dll
+D:\Учеба\11 семестр\Problemki_2_0_css\Problemki_2_0+css — копия\WebAppBellissimo 1.0\WebAppBellissimo 1.0\obj\Debug\WebAppBellissimo 1.0.pdb

@@ -1,0 +1,29 @@
+﻿#table {
+    width: 200px;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+.alignment tr td{
+        height: 20px;
+        width: 250px;
+        padding: 5px 8px;
+    }
+
+
+
+#ContentPlaceHolder1_OkButton, #ContentPlaceHolder1_OkButtonReg {
+    margin-left: 5px;
+    width: 240px;
+    height: 30px;
+}
+
+#ContentPlaceHolder1_AutoOut, #ContentPlaceHolder1_RegOut {
+    margin-left: 5px;
+    top: 15px;
+    position: relative;
+}
+
+#ContentPlaceHolder1_OkButtonReg {
+    width: 260px;
+}

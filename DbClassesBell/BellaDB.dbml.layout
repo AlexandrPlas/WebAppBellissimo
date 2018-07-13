@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 14.5, 18.875" name="BellaDB">
+  <DataContextMoniker Name="/BellaDBDataContext" />
+  <nestedChildShapes>
+    <classShape Id="ec6bbd72-2a3f-4b08-b106-69ab1e4d7314" absoluteBounds="3.5, 7.5, 2, 1.9631982421874996">
+      <DataClassMoniker Name="/BellaDBDataContext/Dish" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3fff0261-60cf-4804-a980-46dace864445" absoluteBounds="3.515, 7.96, 1.9700000000000002, 1.4031982421875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="f0977e41-2d03-4248-adee-6ee6cdc01542" absoluteBounds="3.5, 3.375, 2, 2.347801106770834">
+      <DataClassMoniker Name="/BellaDBDataContext/User" />
+      <nestedChildShapes>
+        <elementListCompartment Id="eb50c569-8feb-4429-ac82-c8553cd3cf9a" absoluteBounds="3.515, 3.835, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fc7a34c8-e97d-4a24-b123-20c19f0540dc" absoluteBounds="6.25, 6.75, 2, 1.3862939453125005">
+      <DataClassMoniker Name="/BellaDBDataContext/ImageForDish" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e6cf904d-b726-42a1-a00f-1d6a20f26910" absoluteBounds="6.265, 7.21, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="cc52aaf8-016f-4d01-bf00-a7b97c76b2e7" absoluteBounds="0.75, 8, 2, 1.1939925130208327">
+      <DataClassMoniker Name="/BellaDBDataContext/Kind" />
+      <nestedChildShapes>
+        <elementListCompartment Id="f75bcd6d-6f18-4c43-b43d-9e42ddcefa71" absoluteBounds="0.765, 8.46, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="03c310bc-8f6a-4c02-8a23-cb507af168c8" absoluteBounds="6.5, 13.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/BellaDBDataContext/Menu" />
+      <nestedChildShapes>
+        <elementListCompartment Id="fe9f4a42-6f56-4e0b-a5ce-7bc5278bfc4a" absoluteBounds="6.515, 14.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="71043064-cafc-447e-b812-f50c89ccc9fd" absoluteBounds="9.25, 7.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/BellaDBDataContext/MenuDish" />
+      <nestedChildShapes>
+        <elementListCompartment Id="e4fe84d3-24ba-4ff3-bfbd-8615dabe6fc3" absoluteBounds="9.265, 8.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="a92b2bd0-13c3-490d-9cf1-cd2d411a19be" absoluteBounds="6.5, 0.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/BellaDBDataContext/Order" />
+      <nestedChildShapes>
+        <elementListCompartment Id="4ee3ed9d-e95b-4f76-9e1a-0999ab1b0c96" absoluteBounds="6.515, 1.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="ed782ea2-8896-4c26-a087-be8d466b20e0" absoluteBounds="9.25, 4.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/BellaDBDataContext/OrderDish" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ab981e43-4c5c-4577-b33e-a818c653ef09" absoluteBounds="9.265, 5.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7f223d1c-68e4-4622-b2e9-15726efd3afb" absoluteBounds="12.25, 7.25, 2, 1.5785953776041675">
+      <DataClassMoniker Name="/BellaDBDataContext/OrderMenu" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ec5d0326-e236-4464-9524-71e6f33307f3" absoluteBounds="12.265, 7.71, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0a45038d-3f38-4cfd-b915-dc7742809788" absoluteBounds="9.25, 10.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/BellaDBDataContext/Portion" />
+      <nestedChildShapes>
+        <elementListCompartment Id="13500345-779b-4248-8930-072f34d5b6d5" absoluteBounds="9.265, 11.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="b40148b7-e87d-4b2a-b967-67f7f62913a5" absoluteBounds="6.5, 16.5, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/BellaDBDataContext/Product" />
+      <nestedChildShapes>
+        <elementListCompartment Id="7d6a14fe-4dbc-4f62-95f6-56fb4530a8b6" absoluteBounds="6.515, 16.96, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e700ee66-d168-483d-bc42-ffd03e080304" absoluteBounds="6.25, 3.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/BellaDBDataContext/Recall" />
+      <nestedChildShapes>
+        <elementListCompartment Id="eed9e7bd-88af-4fed-8f1d-aa62b746af27" absoluteBounds="6.265, 4.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="db9a23d3-8da1-4eea-a46e-56d177d7f2b5" absoluteBounds="6.25, 8.875, 2, 1.3862939453124987">
+      <DataClassMoniker Name="/BellaDBDataContext/Recept" />
+      <nestedChildShapes>
+        <elementListCompartment Id="87d4a014-e6ed-4d87-8b1d-4c75d0f7d2e3" absoluteBounds="6.265, 9.335, 1.9700000000000002, 0.8262939453125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="14331276-4172-4d96-8838-320a6e503816" absoluteBounds="6.5, 11.75, 2, 1.1939925130208344">
+      <DataClassMoniker Name="/BellaDBDataContext/Repast" />
+      <nestedChildShapes>
+        <elementListCompartment Id="30d1568c-6f50-461d-b991-43f4a67ce813" absoluteBounds="6.515, 12.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.5 : 7.81814697265625); (6.25 : 7.81814697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BellaDBDataContext/Dish/Dish_ImageForDish" />
+      <nodes>
+        <classShapeMoniker Id="ec6bbd72-2a3f-4b08-b106-69ab1e4d7314" />
+        <classShapeMoniker Id="fc7a34c8-e97d-4a24-b123-20c19f0540dc" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 8.59699625651042); (3.5 : 8.59699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BellaDBDataContext/Kind/Kind_Dish" />
+      <nodes>
+        <classShapeMoniker Id="cc52aaf8-016f-4d01-bf00-a7b97c76b2e7" />
+        <classShapeMoniker Id="ec6bbd72-2a3f-4b08-b106-69ab1e4d7314" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 8.50564697265625); (9.25 : 8.50564697265625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BellaDBDataContext/Dish/Dish_MenuDish" />
+      <nodes>
+        <classShapeMoniker Id="ec6bbd72-2a3f-4b08-b106-69ab1e4d7314" />
+        <classShapeMoniker Id="71043064-cafc-447e-b812-f50c89ccc9fd" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.5 : 13.75); (8.875 : 13.375); (8.875 : 8.94837317513021); (9.25 : 8.94837317513021)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BellaDBDataContext/Menu/Menu_MenuDish" />
+      <nodes>
+        <classShapeMoniker Id="03c310bc-8f6a-4c02-8a23-cb507af168c8" />
+        <classShapeMoniker Id="71043064-cafc-447e-b812-f50c89ccc9fd" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.5 : 3.375); (4.5 : 1.53929768880208); (6.5 : 1.53929768880208)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BellaDBDataContext/User/User_Order" />
+      <nodes>
+        <classShapeMoniker Id="f0977e41-2d03-4248-adee-6ee6cdc01542" />
+        <classShapeMoniker Id="a92b2bd0-13c3-490d-9cf1-cd2d411a19be" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 8.32096795898438); (9 : 8.32096795898438); (9 : 7.5); (10.25 : 7.5); (10.25 : 6.32859537760417)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BellaDBDataContext/Dish/Dish_OrderDish" />
+      <nodes>
+        <classShapeMoniker Id="ec6bbd72-2a3f-4b08-b106-69ab1e4d7314" />
+        <classShapeMoniker Id="ed782ea2-8896-4c26-a087-be8d466b20e0" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.40625 : 2.32859537760417); (8.40625 : 5.85984537760417); (9.25 : 5.85984537760417)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BellaDBDataContext/Order/Order_OrderDish" />
+      <nodes>
+        <classShapeMoniker Id="a92b2bd0-13c3-490d-9cf1-cd2d411a19be" />
+        <classShapeMoniker Id="ed782ea2-8896-4c26-a087-be8d466b20e0" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.5 : 14.5705501888021); (10.1666666666667 : 14.5705501888021 : JumpStart); (10.3333333333333 : 14.5705501888021 : JumpEnd); (13.25 : 14.5705501888021); (13.25 : 8.82859537760417)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BellaDBDataContext/Menu/Menu_OrderMenu" />
+      <nodes>
+        <classShapeMoniker Id="03c310bc-8f6a-4c02-8a23-cb507af168c8" />
+        <classShapeMoniker Id="7f223d1c-68e4-4622-b2e9-15726efd3afb" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.5 : 1.53929768880208); (13.25 : 1.53929768880208); (13.25 : 7.25)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BellaDBDataContext/Order/Order_OrderMenu" />
+      <nodes>
+        <classShapeMoniker Id="a92b2bd0-13c3-490d-9cf1-cd2d411a19be" />
+        <classShapeMoniker Id="7f223d1c-68e4-4622-b2e9-15726efd3afb" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.5 : 9.4631982421875); (4.5 : 11.21875); (8.32291666666667 : 11.21875 : JumpStart); (8.48958333333333 : 11.21875 : JumpEnd); (8.79166666666667 : 11.21875 : JumpStart); (8.95833333333333 : 11.21875 : JumpEnd); (9.25 : 11.21875)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BellaDBDataContext/Dish/Dish_Portion" />
+      <nodes>
+        <classShapeMoniker Id="ec6bbd72-2a3f-4b08-b106-69ab1e4d7314" />
+        <classShapeMoniker Id="0a45038d-3f38-4cfd-b915-dc7742809788" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.5 : 17.5777498372396); (10.25 : 17.5777498372396); (10.25 : 12.3285953776042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BellaDBDataContext/Product/Product_Portion" />
+      <nodes>
+        <classShapeMoniker Id="b40148b7-e87d-4b2a-b967-67f7f62913a5" />
+        <classShapeMoniker Id="0a45038d-3f38-4cfd-b915-dc7742809788" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 7.5); (5.875 : 7.125); (5.875 : 4.53929768880208); (6.25 : 4.53929768880208)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BellaDBDataContext/Dish/Dish_Recall" />
+      <nodes>
+        <classShapeMoniker Id="ec6bbd72-2a3f-4b08-b106-69ab1e4d7314" />
+        <classShapeMoniker Id="e700ee66-d168-483d-bc42-ffd03e080304" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 4.08214884440104); (6.25 : 4.08214884440104)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BellaDBDataContext/User/User_Recall" />
+      <nodes>
+        <classShapeMoniker Id="f0977e41-2d03-4248-adee-6ee6cdc01542" />
+        <classShapeMoniker Id="e700ee66-d168-483d-bc42-ffd03e080304" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.5 : 9.16909912109375); (6.25 : 9.16909912109375)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BellaDBDataContext/Dish/Dish_Recept" />
+      <nodes>
+        <classShapeMoniker Id="ec6bbd72-2a3f-4b08-b106-69ab1e4d7314" />
+        <classShapeMoniker Id="db9a23d3-8da1-4eea-a46e-56d177d7f2b5" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(8.40625 : 11.75); (8.40625 : 8.69032598632813); (9.25 : 8.69032598632813)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/BellaDBDataContext/Repast/Repast_MenuDish" />
+      <nodes>
+        <classShapeMoniker Id="14331276-4172-4d96-8838-320a6e503816" />
+        <classShapeMoniker Id="71043064-cafc-447e-b812-f50c89ccc9fd" />
+      </nodes>
+    </associationConnector>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
